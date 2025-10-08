@@ -1,6 +1,6 @@
 # 📊 Customer Churn Prediction Analysis
 
-![Churn Analysis Banner](churn_banner2.jpg)
+![Churn Analysis Banner](images/churn_banner2.jpg)
 
 **Project Overview:**  
 This project analyzes customer churn for a telecommunications company. The goal is to **identify key factors driving churn**, build predictive models, and provide actionable recommendations.
@@ -95,11 +95,11 @@ Customer churn occurs when a customer stops doing business with a company. Predi
 <table>
   <tr>
     <td>
-      <img src="numeric.JPG" alt="Tenure Distribution" width="300"/>
+      <img src="images/numeric.JPG" alt="Tenure Distribution" width="300"/>
       <p><em> Numeric Features Distribution </em></p>
     </td>
     <td>
-      <img src="correlation.JPG" alt="Contract vs Churn" width="300"/>
+      <img src="images/correlation.JPG" alt="Contract vs Churn" width="300"/>
       <p><em>Correlation Heatmap matrix Between Tenure, MonthlyChrgs, Churn </em></p>
     </td>
   </tr>
@@ -108,11 +108,11 @@ Customer churn occurs when a customer stops doing business with a company. Predi
  <table>
   <tr>
     <td>
-      <img src="top.JPG" alt="Tenure Distribution" width="300"/>
+      <img src="images/top.JPG" alt="Tenure Distribution" width="300"/>
       <p><em> Top Features Impacting Customer Churn </em></p>
     </td>
     <td>
-      <img src="top10.JPG" alt="Contract vs Churn" width="300"/>
+      <img src="images/top10.JPG" alt="Contract vs Churn" width="300"/>
       <p><em> Top 10 Features Driving  Churn </em></p>
     </td>
   </tr>
@@ -164,11 +164,11 @@ RandomizedSearchCV for Random Forest
   <tr>
     <td>
       <strong>Confusion Matrix:</strong><br>
-      <img src="confusion_matrix.JPG" alt="Logistic Regression Confusion Matrix" width="300"/>
+      <img src="images/confusion_matrix.JPG" alt="Logistic Regression Confusion Matrix" width="300"/>
     </td>
     <td>
       <strong>ROC Curve:</strong><br>
-      <img src="roc_curve.JPG" alt="Logistic Regression ROC Curve" width="300"/>
+      <img src="images/roc_curve.JPG" alt="Logistic Regression ROC Curve" width="300"/>
     </td>
   </tr>
 </table>
@@ -210,7 +210,7 @@ SHAP (SHapley Additive exPlanations) provides **global and local interpretabilit
 | 5    | TechSupport_Yes         | Providing tech support reduces churn |
 
 **SHAP Summary Plot:**  
-![SHAP Summary Plot](shap.JPG)
+![SHAP Summary Plot](images/shap.JPG)
 
 ---
 
